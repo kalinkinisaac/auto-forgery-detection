@@ -43,3 +43,10 @@ Green and Red squares (named *blocks*) represents difference between to images.
 - [Article: 'Automated Image Forgery Detection through Classification'](http://www5.informatik.uni-erlangen.de/Forschung/Publikationen/2012/Zach12-AIF.pdf "Automated Image Forgery Detection through Classification")
 - [Documentation of scikit-learn 0.21.2](https://scikit-learn.org/stable/documentation.html "Documentation of scikit-learn 0.21.2")
 - [NumPy User Guide](https://docs.scipy.org/doc/numpy/user/index.html#user "NumPy User Guide")
+
+
+# Coded and commited by
+
+- Kalinkin Isaac (@kalinkinisaac)
+- Nikolenko Alex (@GorillazZz1)
+- Novik Ivaan
