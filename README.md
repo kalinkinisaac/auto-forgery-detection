@@ -1,6 +1,20 @@
 # auto-forgery-detection
 Automated Image Forgery Detection through Classification of JPEG Ghosts
 
+## Template
+
+**Fast start.**
+
+Try code below and you will see the magic:
+```python
+from manage import *
+path = 'data/trump-queen-fake.jpg'
+predict_img(path, w=16)
+```
+[![Example 0](https://a.radikal.ru/a22/1906/83/44d48d4a82a3.png "Example 0")](https://a.radikal.ru/a22/1906/83/44d48d4a82a3.png "Example 0")
+
+## How to
+
 ### How to start
 
 1. In console `git clone https://github.com/kalinkinisaac/auto-forgery-detection.git`
@@ -24,7 +38,7 @@ For example here you can see difference `w=64` to the right, and `w=16` to the l
 
 Green and Red squares (named *blocks*) represents difference between to images.
 
-### Used sources
+## Used sources
 
 - [Article: 'Automated Image Forgery Detection through Classification'](http://www5.informatik.uni-erlangen.de/Forschung/Publikationen/2012/Zach12-AIF.pdf "Automated Image Forgery Detection through Classification")
 - [Documentation of scikit-learn 0.21.2](https://scikit-learn.org/stable/documentation.html "Documentation of scikit-learn 0.21.2")
