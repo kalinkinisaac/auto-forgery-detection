@@ -13,7 +13,8 @@ def to_jpeg(image: Image, quality=100):
 
 
 def self_tampered(image: Image, box=(0, 0, 64, 64), q0=60, q1=80):
-    tamper = image.copy()#Image.blend(image.copy().convert('RGBA'), Image.new('RGBA', size=image.size, color=(218, 112, 214)), alpha=0.5).convert('RGB')
+    tamper = Image.blend(image.copy().convert('RGBA'), Image.new('RGBA', size=image.size, color=(218, 112, 214)), alpha=0.5).convert('RGB')
+    # tamper = image.copy()
     tamper = to_jpeg(tamper, q0)
     tamper = tamper.crop(box)
     tampered = image.copy()
