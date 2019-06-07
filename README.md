@@ -23,7 +23,7 @@ predict_img(path, w=16)
 4. Go to the folder `cd auto-forgery-detection/`
 5. You are ready to go! You are perfect!
 
-### How to chech photo
+### How to check photo
 
 1. Open python console, when you are in project folder `python`
 2. Import all from managy.py `from manage import *`
